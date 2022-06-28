@@ -1,18 +1,18 @@
-var content =document.getElementById("content");
-var button  =document.getElementById("show");
-var hide = document.getElementById("hide")
+
+var button= document.getElementById("btn");
+var dropdown= document.getElementById("dropdown")
+dropdown.style.display="none"
 
 
-button.onclick= function () {
-    content.style.display="block"
-   
-    
+function p () {
+    if (dropdown.style.display="none"){
+                dropdown.style.display="block"
+               
+            }
+            else{
+                dropdown.style.display="none"
+        
+        
+            }
+
 }
-
-hide.onclick= function () {
-    content.style.display="none"
-   
-    
-}
-
-
