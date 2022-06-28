@@ -5,7 +5,7 @@ dropdown.style.display="none"
 
 
 function p () {
-    if (dropdown.style.display="none"){
+    if (dropdown.style.display=="none"){
                 dropdown.style.display="block"
                
             }
